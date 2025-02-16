@@ -1,0 +1,25 @@
+{
+  "name": "Gauthmath Premium Unlocker",
+  "description": "Alerts and clears cookies when a specific element appears on gauthmath.com",
+  "version": "1.1",
+  "manifest_version": 3,
+  "permissions": [
+    "browsingData",
+    "cookies",
+    "tabs",
+    "storage"
+  ],
+  "host_permissions": [
+    "*://*.gauthmath.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.gauthmath.com/*"],
+      "js": ["content.js", "key-validator.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

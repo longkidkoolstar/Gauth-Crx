@@ -1,6 +1,7 @@
 {
-  "name": "Gauthmath Premium Unlocker(1)",
-  "description": "Alerts and clears cookies when a specific element appears on gauthmath.com",
+  "name": "Gauthmath Premium Unlocker",
+  "description": "Gives the User Premium Access to Gauthmath",
+  "author": "longkidkoolstar",
   "version": "1.2",
   "manifest_version": 3,
   "permissions": [
